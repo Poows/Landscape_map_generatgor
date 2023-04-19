@@ -1,0 +1,28 @@
+{    
+    "load_model_and_stuff": {
+        "model_path": "src/DCGAN_netG.pt"
+    },
+    "stitching_method": {
+        "method": "Quilting"
+    },
+    "quilting": {
+        "map_size": [500, 500],
+        "patch_size": 64,
+        "overlap_part": 0.3,
+        "coef": 3,
+        "map_type": "png",
+        "use_global_map": false
+    },
+    "gradient": {
+        "map_size": [5, 5],
+        "map_type": "png"
+    },
+    "patch_based": {
+        "map_size": [500, 500],
+        "map_type": "png",
+        "image_shape": [10, 10],
+        "maps_image_vector_size": 20,
+        "method": "linear",
+        "overlap_part": 0.2
+    }
+}
